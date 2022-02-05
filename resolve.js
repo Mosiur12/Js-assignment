@@ -1,27 +1,3 @@
-// PROBLEM-1
-
-// 16 ana = 1 vori
-
-// function anaToVori (ana){
-    
-//      if (typeof ana === 'number'){
-
-//       //  ----Calculation for ana to vori---
-
-//       var vori = ana/16;
-       
-//     }
-    
-//     else{
-//       return "please put a intizer number";
-//     }
-    
-//     return vori; 
-// }
-// var voriToAna = anaToVori (64);
-// console.log(voriToAna);
-
-
 
 // ----------------PROBLEM-2---------:
 // sigaracost = 7 tk/singara
@@ -32,7 +8,7 @@ var totalCost=0;
 
 function pandaCost (singaraQuantity , somuchaQuantity , zilapiQuantity){
 
-if (typeof singaraQuantity  === 'number' && typeof somuchaQuantity  === 'number'&& typeof zilapiQuantity  === 'number' ){
+if ( singaraQuantity >=0 &&  somuchaQuantity >=0 && zilapiQuantity >=0 ){
 
 
 // ---Food Calculation...
@@ -56,8 +32,5 @@ return totalCost;
 
 }
 
-const foodCost = pandaCost ( -1,0,2);
+const foodCost = pandaCost (1,1,2);
 console.log(foodCost);
-
-
-

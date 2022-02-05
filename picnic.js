@@ -30,4 +30,4 @@ else if (numberOfStudent <= 100){
 return budgetOfPicnic;
 
 }
-console.log( picnicBudget(15));
+console.log( picnicBudget(150));
