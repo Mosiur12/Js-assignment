@@ -1,21 +1,24 @@
 // PROBLEM-1
 
-// function anaToVori (ana){
+function anaToVori (ana){
     
-//     if (Number.isNaN (ana)){
-//       var vori = ana/16;
-//       return vori;
-      
-//     }
-//     else{
-//       return "please put a intizer number";
-//     }
-    
+     if (typeof ana === 'number'){
+
+      //  Calculation for ana to vori
+
+      var vori = ana/16;
        
-// }
-// var voriToAna = anaToVori (64);
-// console.log(voriToAna);
-// (typeof ana === 'number')
+    }
+    
+    else{
+      return "please put a intizer number";
+    }
+    
+    return vori; 
+}
+var voriToAna = anaToVori (64);
+console.log(voriToAna);
+
 
 
 // ----------------PROBLEM-2---------:
@@ -29,7 +32,8 @@
 // const perSomucha = 10;
 // const perZilapi = 15;
 
-// // Food Calculation
+// // Food Calculation...
+
 // const costOfSingara = singaraQuantity * perSingara;
 // const costOfSomucha = somuchaQuantity * perSomucha;
 // const costOfZilapi = zilapiQuantity * perZilapi;
@@ -44,5 +48,5 @@
 // const foodCost = pandaCost (1 , 2, 2);
 // console.log(foodCost);
 
-// PROBLEM-3:
+
 

@@ -1,3 +1,5 @@
+// PROBLEM-3:
+
 // first 100 of students chada = 5000 tk;
 // second 100 of students chada = 4000 tk;
 // third 100 of students chada = 3000 tk;
@@ -28,4 +30,4 @@ else if (numberOfStudent <= 100){
 return budgetOfPicnic;
 
 }
-console.log( picnicBudget(150));
+console.log( picnicBudget(15));
