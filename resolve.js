@@ -25,7 +25,7 @@ if ( singaraQuantity >=0 &&  somuchaQuantity >=0 && zilapiQuantity >=0 ){
   
 }
 else{
-  return "please input the vaild value";
+  return "please input the vaild amount of number";
 }
 
 return totalCost;
