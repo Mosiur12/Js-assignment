@@ -2,24 +2,24 @@
 
 // 16 ana = 1 vori
 
-// function anaToVori (ana){
+function anaToVori (ana){
     
-//      if (typeof ana === 'number'){
+     if (typeof ana === 'number'){
 
-//       //  ----Calculation for ana to vori---
+      //  ----Calculation for ana to vori---
 
-//       var vori = ana/16;
+      var vori = ana/16;
        
-//     }
+    }
     
-//     else{
-//       return "please put a intizer number";
-//     }
+    else{
+      return "please put a intizer number";
+    }
     
-//     return vori; 
-// }
-// var voriToAna = anaToVori (64);
-// console.log(voriToAna);
+    return vori; 
+}
+var voriToAna = anaToVori (64);
+console.log(voriToAna);
 
 
 
@@ -28,36 +28,36 @@
 // somuchacost = 10 tk/somucha
 // zilapicost = 15 tk/zilapi 
 
-var totalCost=0;
+// var totalCost=0;
 
-function pandaCost (singaraQuantity , somuchaQuantity , zilapiQuantity){
+// function pandaCost (singaraQuantity , somuchaQuantity , zilapiQuantity){
 
-if (typeof singaraQuantity  === 'number' && typeof somuchaQuantity  === 'number'&& typeof zilapiQuantity  === 'number' ){
+// if (typeof singaraQuantity  === 'number' && typeof somuchaQuantity  === 'number'&& typeof zilapiQuantity  === 'number' ){
 
 
-// ---Food Calculation...
+// // ---Food Calculation...
 
-  const perSingara = 7;
-  const perSomucha = 10;
-   const perZilapi = 15;
+//   const perSingara = 7;
+//   const perSomucha = 10;
+//    const perZilapi = 15;
    
-  const costOfSingara = singaraQuantity * perSingara;
-  const costOfSomucha = somuchaQuantity * perSomucha;
-  const costOfZilapi = zilapiQuantity * perZilapi;
+//   const costOfSingara = singaraQuantity * perSingara;
+//   const costOfSomucha = somuchaQuantity * perSomucha;
+//   const costOfZilapi = zilapiQuantity * perZilapi;
   
-  totalCost = costOfSingara + costOfSomucha + costOfZilapi;
+//   totalCost = costOfSingara + costOfSomucha + costOfZilapi;
   
-}
-else{
-  return "please input the vaild value";
-}
+// }
+// else{
+//   return "please input the vaild value";
+// }
 
-return totalCost;
+// return totalCost;
 
-}
+// }
 
-const foodCost = pandaCost ( -1,0,2);
-console.log(foodCost);
+// const foodCost = pandaCost ( -1,0,2);
+// console.log(foodCost);
 
 
 

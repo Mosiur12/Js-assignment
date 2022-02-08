@@ -6,7 +6,10 @@
 
 function picnicBudget(numberOfStudent){
 let budgetOfPicnic;
-if(numberOfStudent > 200){
+if (numberOfStudent<=0){
+    return "please input a valid number";
+}
+else if(numberOfStudent > 200){
     let forFirst100Student = 100 * 5000;
     let second100Student = 100 * 4000;
     let third100Student = (numberOfStudent-200)*3000;
@@ -30,4 +33,4 @@ else if (numberOfStudent <= 100){
 return budgetOfPicnic;
 
 }
-console.log( picnicBudget(150));
+console.log( picnicBudget(250));

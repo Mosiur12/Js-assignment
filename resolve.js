@@ -1,5 +1,6 @@
 
 // ----------------PROBLEM-2---------:
+
 // sigaracost = 7 tk/singara
 // somuchacost = 10 tk/somucha
 // zilapicost = 15 tk/zilapi 
@@ -32,5 +33,5 @@ return totalCost;
 
 }
 
-const foodCost = pandaCost (1,1,2);
+const foodCost = pandaCost (0,1,2);
 console.log(foodCost);
